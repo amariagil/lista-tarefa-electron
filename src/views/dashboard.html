@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/estiloDashboard.css">
+</head>
+<body onload="carregarHorario()">
+    <section class="dashboard">
+        <div class="areaEsquerda">
+            <div class="data">
+                <div id="msg">
+
+                </div>
+                <div id="foto">
+
+                </div>
+            </div>
+
+            <div id="data" class="datas">
+
+            </div>
+        </div>
+
+
+
+        <div class="lista">
+            <label class="inserirTarefa">Insira uma tarefa: </label>
+            <input type="text" class="form-control" name="input-box" id="input-box" aria-describedby="basic-addon1"/><br>
+            <button id="botaoAdd" class="btn" onclick="addItem()">Adicionar</button>
+
+
+            <h3>Lista de Tarefas</h3>
+            <ul id="listaDiv"></ul>
+
+            <hr/>
+
+            <div class="contadorTarefas">
+                Completas: <span id="completas">0</span> | Incompletas: <span id="incompletas">0</span>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="../public/js/script.js"></script>
+</body>
+</html>

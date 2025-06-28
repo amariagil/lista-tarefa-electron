@@ -1,0 +1,36 @@
+body {
+    background-image: url("../img/BG2.png");
+
+} 
+
+section.index {
+    background-color: #faa2b1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(80, 78, 78);
+    width: 500px;
+    display: flex;
+    margin-top: 60px;
+}
+
+
+label.nome {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+button.btn {
+    background-color: aliceblue; 
+    margin-top: 30px; 
+    margin-left: 200px;
+}
+
+
+
+.form-control{
+    margin-left:70px;
+}
