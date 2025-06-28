@@ -19,8 +19,8 @@ Uma aplicação desktop simples de lista de tarefas, com saudação personalizad
 
 ## 🖼️ Interface
 
-![Imagem da aplicação](./screenshot/TelaInicial.png) <!-- Você pode adicionar uma imagem da sua tela aqui -->
-![Imagem da aplicação](./screenshot/dashboard.png) 
+![Imagem da aplicação](./screenshots/TelaInicial.png) <!-- Você pode adicionar uma imagem da sua tela aqui -->
+![Imagem da aplicação](./screenshots/dashboard.png) 
 ---
 
 ## 🚀 Como executar
